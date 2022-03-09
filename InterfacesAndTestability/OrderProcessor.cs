@@ -43,4 +43,13 @@ order for shipping date. I have hardcoded a rule here that states shipping will 
 
 
 
+OK let's move on and see what is unit testing all about unit testing is part of automated testing practice
+
+which means we write code to test our code.
+
+So instead of we manually test our suffer every time using clique's and typing we write some automated
+
+tests to achieve that.
+
+
  */
