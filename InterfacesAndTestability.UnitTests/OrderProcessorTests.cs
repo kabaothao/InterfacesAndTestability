@@ -32,6 +32,8 @@ namespace InterfacesAndTestability.UnitTests
         orderProcessor.Process(order);
 
         Assert.IsTrue(order.IsShipped);
+        Assert.AreEqual(1, order.Shipment.Cost);
+        Assert.AreEqual(DateTime.Today.AddDays(1), order.Shipment.ShippingDate);
     }
 
 
