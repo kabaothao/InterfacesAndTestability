@@ -17,8 +17,8 @@ namespace InterfacesAndTestability
 
         public void Process(Order order)
         {
-            if (order.IsShipped)
-                throw new InvalidOperationException("This order is already processed.");
+            //if (order.IsShipped)
+            //    throw new InvalidOperationException("This order is already processed.");
 
             order.Shipment = new Shipment
             {
