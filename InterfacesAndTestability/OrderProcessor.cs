@@ -28,3 +28,19 @@ namespace InterfacesAndTestability
         }
     }
 }
+
+
+/*
+ 
+line 18-25
+Now if the order is not shipped before we simply create an object of type shipment and assign it to
+
+the shipment property the shipment class has two properties cost and shipping date to calculate the
+
+costs. We use our shipping calculator. So we passed the order and that shipping calculator knows how much the shipping cost should be for an
+
+order for shipping date. I have hardcoded a rule here that states shipping will be done the day after the order is submitted
+
+
+
+ */
