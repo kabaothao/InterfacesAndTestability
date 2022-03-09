@@ -21,14 +21,31 @@ namespace InterfacesAndTestability.UnitTests
         }
     }
 
+
+
+    [TestMethod]
+    public void Process_OrderIsNoteShipped_ShouldSetTheShipmentPropertyofTheOrder()
+    {
+        var orderProcessor = new OrderProcessorTests(new FakeShippingCalculator());
+        var order = new OrderProcessorTests();
+
+        orderProcessor.Process(order);
+
+        Assert.IsTrue(order.IsShipped);
+    }
+
+
+
     public class FakeShippingCalculator : IShippingCalculator
     {
         public float CalculateShipping(Order order)
         {
             return 1;
         }
-        
+
     }
+
+
 
 }
 
