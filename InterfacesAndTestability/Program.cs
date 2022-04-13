@@ -15,3 +15,29 @@ namespace MyApp // Note: actual namespace depends on the project name.
         }
     }
 }
+
+
+/*
+ 
+What is an interface?
+
+An interface is a language construct that is similar to class in terms of syntax but it's fundamentally
+
+different.
+
+For example:
+
+public interface ITaxCalculator
+{
+
+ int Calculate*();
+
+}
+ 
+
+So wherever you see a type that starts with I that represents an interface it's a convention but unlike
+
+classes interfaces do not have implementation.
+
+
+ */
